@@ -3,5 +3,52 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
 }
 
+.container {
+    width: 70%;
+    margin: 40px auto;
+    /* DEBUG 
+    min-height: 500px;
+    background-color: blue; */
+}
+
+/* regole header */
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rgba(229,49,112,255);
+    font-size: 40px;
+}
+
+header > p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 55px;
+    margin-bottom: 35px;
+    
+}
+
+/* regole clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* regole col */
+.col {
+    background-color: rgba(15,14,23,255);
+    width: calc( (100% / 3) - 60px) ;
+    float: left;
+    margin: 0px 10px 40px 10px;
+    margin-bottom: 40px;
+    /* DEBUG */
+    min-height: 100px;
+    
+    border: solid 2px green;
+    
+}
