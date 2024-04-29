@@ -42,13 +42,32 @@ header > p {
 /* regole col */
 .col {
     background-color: rgba(15,14,23,255);
-    width: calc( (100% / 3) - 60px) ;
+    width: calc( (100% / 3) - 30px) ;
+    height: 100px;
     float: left;
-    margin: 0px 10px 40px 10px;
+    margin: 0px 15px 40px 15px;
     margin-bottom: 40px;
-    /* DEBUG */
-    min-height: 100px;
     
-    border: solid 2px green;
     
+}
+
+/* regole immagini */
+.avatar {
+    max-width: 30%;
+    max-height: 100%;
+    float: left;
+
+}
+
+/* regole interno riquadri */
+.infoppl {
+    color: white;
+    padding-left: 120px;
+}
+.mail {
+    color: rgba(103,198,235,255);
+}
+
+.name,.role,.mail {
+    padding-top: 8px;
 }
